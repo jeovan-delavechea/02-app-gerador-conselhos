@@ -3,9 +3,7 @@ const idDoConselho = document.querySelector('.aviso')
 const descricaoDoConselho = document.querySelector('.descricao')
 
 
-botaoDeMudanca.addEventListener('click', () =>{
-    return selecionarPeloId()
-})
+botaoDeMudanca.addEventListener('click', () => selecionarPeloId())
 
 async function criarGeradorDeConselhos(){
     const url = 'https://api.adviceslip.com/advice'
