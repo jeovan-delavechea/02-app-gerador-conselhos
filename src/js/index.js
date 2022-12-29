@@ -21,6 +21,6 @@ async function selecionarPeloId(){
     
     descricaoDoConselho.innerText = `"${idEDescricao.advice}"`
 }
-
+selecionarPeloId()
 
     
